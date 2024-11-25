@@ -43,12 +43,12 @@ namespace ejercicioTelegrama
             {
                 if (numPalabras <= 10)
                 {
-                    coste = 2.5;
+                    coste = 3;
                 }
                 else
                 {
                     numPalabras = numPalabras - 10;
-                    coste = 2.5 + (0.5 * numPalabras);
+                    coste = 3 + (0.5 * numPalabras);
                 }
             }
             else //Si el telegrama es urgente
@@ -59,11 +59,11 @@ namespace ejercicioTelegrama
                     if (numPalabras <= 10)
 
                     {
-                        coste = 5;
+                        coste = 6;
                     }
                     else
                     {
-                        coste = 5 + 0.75 * (numPalabras - 10);
+                        coste = 6 + 0.75 * (numPalabras - 10);
                     }
                 }
                 else
